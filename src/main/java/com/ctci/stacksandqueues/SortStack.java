@@ -45,4 +45,8 @@ public class SortStack {
         sortStack(unsortedStack);
         printStack(unsortedStack);
     }
+    public static void testAssertions() {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+    }
 }
