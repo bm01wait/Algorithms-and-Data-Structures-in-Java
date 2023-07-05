@@ -1,4 +1,4 @@
-package com.ctci.stacksandqueues;
+package com.ctci.stackandqueues;
 
 import java.util.Arrays;
 import java.util.Stack;
@@ -45,8 +45,5 @@ public class SortStack {
         sortStack(unsortedStack);
         printStack(unsortedStack);
     }
-    public static void testAssertions() {
-        Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-    }
+
 }
