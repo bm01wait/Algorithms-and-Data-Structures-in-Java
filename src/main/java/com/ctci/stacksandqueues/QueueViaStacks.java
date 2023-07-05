@@ -2,7 +2,8 @@ package com.ctci.stacksandqueues;
 
 import java.util.NoSuchElementException;
 import java.util.Stack;
-
+import static org.junit.Assert.*;
+import org.junit.Test;
 /**
  * Implement a queue using two stacks. No other data structures to be used.
  *
@@ -57,5 +58,13 @@ public class QueueViaStacks<T> {
         queue.print();
         queue.remove();
         queue.print();
+    }
+    @Test
+    public static void testAssertions() {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        for (int i = 0; i < n; i++) {
+            
+        }
     }
 }
