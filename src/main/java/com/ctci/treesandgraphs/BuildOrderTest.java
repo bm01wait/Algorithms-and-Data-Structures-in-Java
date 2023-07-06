@@ -1,10 +1,10 @@
-package main.java.com.ctci.stacksandqueues;
+package main.java.com.ctci.treesandgraphs;
 
-import com.ctci.stacksandqueues.StackMin;
+import com.ctci.treesandgraphs.BuildOrder;
 
-public class StackMinTest {
+public class BuildOrderTest {
     public static void main(String[] args) {
-        Result result = JUnitCore.runClasses(StackMin.class);
+        Result result = JUnitCore.runClasses(BuildOrder.class);
         for (Failure failure : result.getFailures()) {
             System.out.println(failure.toString());
         }

@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.stream.Stream;
-
+import org.junit.Assert.*;
 /**
  * You are given a list of projects and a list of dependencies (which is a list of pairs of projects, where the second
  * project is dependent on the first project). All of a project's dependencies must be built before the project is. Find
@@ -107,7 +107,7 @@ public class BuildOrder {
         projects.forEach((n, p) -> p.dependencies.removeAll(newlyBuiltProjects));
     }
 
-
+    @Test
     public static void main(String[] args) {
         /* test case 1
         
@@ -139,6 +139,8 @@ public class BuildOrder {
         buildOrder.addDependency("b", "a");
         buildOrder.addDependency("b", "e");
         buildOrder.addDependency("a", "e");
+        assertNull(buildOrder);
         System.out.println(buildOrder.getBuildOrder());
+        
     }
 }
