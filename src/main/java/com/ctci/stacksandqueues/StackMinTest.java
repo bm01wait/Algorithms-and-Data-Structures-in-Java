@@ -1,6 +1,7 @@
-package main.java.com.ctci.stacksandqueues;
-
-import com.ctci.stacksandqueues.StackMin;
+package com.ctci.stacksandqueues;
+import org.junit.runner.JUnitCore;
+import org.junit.runner.Result;
+import org.junit.runner.notification.Failure;
 
 public class StackMinTest {
     public static void main(String[] args) {

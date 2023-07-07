@@ -1,11 +1,11 @@
-package com.ctci.bitmanipulation;
+package com.ctci.linkedlists;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
 public class PartitionTest {
     public static void main(String[] args) {
         //testAssertions();
-        Result result = JUnitCore.runClasses(KthToLastElement.class);
+        Result result = JUnitCore.runClasses(Partition.class);
         for (Failure failure : result.getFailures()) {
             System.out.println(failure.toString());
         }

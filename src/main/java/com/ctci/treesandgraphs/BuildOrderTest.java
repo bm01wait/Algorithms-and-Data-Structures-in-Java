@@ -1,7 +1,9 @@
-package main.java.com.ctci.treesandgraphs;
+package com.ctci.treesandgraphs;
 
 import com.ctci.treesandgraphs.BuildOrder;
-
+import org.junit.runner.JUnitCore;
+import org.junit.runner.Result;
+import org.junit.runner.notification.Failure;
 public class BuildOrderTest {
     public static void main(String[] args) {
         Result result = JUnitCore.runClasses(BuildOrder.class);

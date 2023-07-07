@@ -1,5 +1,7 @@
 package com.ctci.treesandgraphs;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -8,7 +10,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.stream.Stream;
-import org.junit.Assert.*;
+import static org.junit.Assert.assertNull;
+
 /**
  * You are given a list of projects and a list of dependencies (which is a list of pairs of projects, where the second
  * project is dependent on the first project). All of a project's dependencies must be built before the project is. Find

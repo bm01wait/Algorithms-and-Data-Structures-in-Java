@@ -1,4 +1,7 @@
-package main.java.com.ctci.stacksandqueues;
+package com.ctci.stacksandqueues;
+import org.junit.runner.JUnitCore;
+import org.junit.runner.Result;
+import org.junit.runner.notification.Failure;
 public class StackOfPlatesTest {
     public static void main(String[] args) {
         Result result = JUnitCore.runClasses(QueueViaStacks.class);
